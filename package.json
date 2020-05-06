@@ -1,0 +1,12 @@
+{
+  "name": "dynamo_local",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.670.0",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.1.5",
+    "uuid": "^8.0.0"
+  }
+}

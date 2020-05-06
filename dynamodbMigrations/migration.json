@@ -1,0 +1,21 @@
+{
+  "Table": {
+	"TableName": "dynamodb-locally",
+	"KeySchema": [
+	  {
+		"AttributeName": "attr_1",
+		"KeyType": "HASH"
+	  }
+	],
+	"AttributeDefinitions": [
+	  {
+		"AttributeName": "attr_1",
+		"AttributeType": "S"
+	  }
+	],
+	"ProvisionedThroughput": {
+	  "ReadCapacityUnits": 1,
+	  "WriteCapacityUnits": 1
+	}
+  }
+}
